@@ -1,0 +1,34 @@
+# --- Window Size ---
+window-width = 155
+window-height = 35
+
+theme = Catppuccin Mocha
+
+# --- Split Navigation (Vim-style) ---
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+keybind = ctrl+shift+l=goto_split:right
+
+# --- Create Splits ---
+keybind = ctrl+alt+v=new_split:right
+keybind = ctrl+alt+w=new_split:down
+
+# ==============================
+# Close Current Split
+# ==============================
+keybind = ctrl+shift+q=close_surface
+
+# ==============================
+# Resize Splits (Vim-style)
+# ==============================
+keybind = ctrl+alt+h=resize_split:left,20
+keybind = ctrl+alt+j=resize_split:down,20
+keybind = ctrl+alt+k=resize_split:up,20
+keybind = ctrl+alt+l=resize_split:right,20
+
+# -- ssh compatibility ---
+shell-integration-features = ssh-env,ssh-terminfo
+
+# -- scrolling speed --
+mouse-scroll-multiplier = 1
